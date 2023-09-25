@@ -94,3 +94,19 @@ h1 {
 .box--five img {
   width: 100%;
 }
+/* ----------------part 2-------------- */
+@media screen and (min-width: 600px) {
+
+  .box--two {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 1200px) {
+
+  .box--two {
+    width: 400px;
+    height: 400px;
+    orientation: landscape;
+  }
+}
